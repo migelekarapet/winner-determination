@@ -1,0 +1,16 @@
+Before disjointResult   weight 452 => 3 4 6 subset(s) with index(ices) 0            	0001
+is in map 0 '0'- false, '1'- true 
+After  weight 452 => 3 4 6 subset(s) with index(ices) 0 
+Before disjointResult   weight 233 => 1 2 3 subset(s) with index(ices) 1 		0010
+is in map 0 '0'- false, '1'- true 
+After  weight 233 => 1 2 3 subset(s) with index(ices) 1 
+0011 - IS NOT CREATED VIA COMBINED KEY in DisjointResult map
+Before disjointResult   weight 23 => 2 3 subset(s) with index(ices) 2 			0100
+is in map 0 '0'- false, '1'- true 
+After  weight 23 => 2 3 subset(s) with index(ices) 2 
+0101 - IS NOT CREATED VIA COMBINED KEY in DisjointResult map
+0110 - IS NOT CREATED VIA COMBINED KEY in DisjointResult map
+Before disjointResult   weight 89 => 1 2 subset(s) with index(ices) 3 			1000	
+is in map 0 '0'- false, '1'- true 
+After  weight 89 => 1 2 subset(s) with index(ices) 3 
+1 2 3 4 6 => 541   0 3  (which is a combined key - a.k.a. 1001)
